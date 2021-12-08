@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.img1 {
+    background-image: url(./images/image1.jpg);
+    min-height: 100%;
+}
+
+.img2 {
+    background-image: url(./images/image3.jpg);
+    min-height: 57%;
+}
+
+.img3 {
+    background-image: url(./images/image4.jpg);
+    min-height: 75%;
+}
+
+.img4 {
+    background-image: url(./images/image2.jpg);
+    min-height: 100%;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text {
+    padding: 1rem 1.5rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 2.3rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    border-radius: 3px;
+}
+
+.trans {
+    background-color: transparent;
+}
+
+section {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    height: 45%;
+    font-size: 1.2em;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+}
+
+.section-light {
+    color: #77736e;
+    background-color: #f4f4f4;
+}
+
+.section-dark {
+    color: #dddddd;
+    background-color: #282e34;
+}
